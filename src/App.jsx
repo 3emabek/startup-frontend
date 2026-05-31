@@ -239,14 +239,14 @@ export default function App() {
       <div style={{ background:"#0c0e17ee",backdropFilter:"blur(20px)",padding:"14px 20px 12px",borderBottom:"1px solid #1a1d2e",position:"sticky",top:0,zIndex:50,display:"flex",alignItems:"center",justifyContent:"space-between" }}>
         <div>
           <div style={{ fontSize:10,color:"#3a3f5c",fontWeight:800,letterSpacing:2,textTransform:"uppercase" }}>Торговый представитель</div>
-          <div style={{ fontSize:19,fontWeight:900,letterSpacing:-.5 }}>ТопТрейд<span style={{ color:"#6ee7b7" }}> Pro</span></div>
+          <div style={{ fontSize:19,fontWeight:900,letterSpacing:-.5 }}>3емабек Опт<span style={{ color:"#6ee7b7" }}> Pro</span></div>
         </div>
         <div style={{ display:"flex",gap:12,alignItems:"center" }}>
           <div style={{ position:"relative",cursor:"pointer" }} onClick={() => setTab("notifications")}>
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={unread>0?"#f59e0b":"#3a3f5c"} strokeWidth="2.2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
             {unread > 0 && <span style={{ position:"absolute",top:-5,right:-5,background:"#ef4444",color:"#fff",fontSize:9,fontWeight:900,borderRadius:10,padding:"1px 4px",minWidth:15,textAlign:"center",lineHeight:"13px" }}>{unread}</span>}
           </div>
-          <div style={{ width:36,height:36,borderRadius:12,background:"linear-gradient(135deg,#6ee7b7 0%,#3b82f6 100%)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:900,fontSize:13,color:"#0c0e17" }}>АИ</div>
+          <div style={{ width:36,height:36,borderRadius:12,background:"linear-gradient(135deg,#6ee7b7 0%,#3b82f6 100%)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:900,fontSize:13,color:"#0c0e17" }}>СМ</div>
         </div>
       </div>
 
@@ -258,7 +258,7 @@ export default function App() {
           <div className="page">
             <div style={{ marginBottom:18 }}>
               <div style={{ fontSize:12,color:"#4a5177" }}>Добрый день,</div>
-              <div style={{ fontSize:24,fontWeight:900,letterSpacing:-.5 }}>Азиз Иргашев 👋</div>
+              <div style={{ fontSize:24,fontWeight:900,letterSpacing:-.5 }}>Сауле Махметова 👋</div>
             </div>
             <div style={{ display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8,marginBottom:14 }}>
               {[
